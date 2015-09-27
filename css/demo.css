@@ -1,0 +1,49 @@
+.menuButton button {
+	background: rgba(0,0,0,0.5);
+	padding: 0;
+	margin: 20px;
+	border-radius: 2px;
+	position: fixed;
+	right: 0;
+	z-index: 100;
+}
+
+.menuButton {
+	padding: 0;
+	text-align: right;
+	width: 100%;
+	position: fixed;
+}
+
+.menuButton button {
+	border: none;
+	padding: 10px 20px;
+	outline: none;
+	background: rgba(0,0,0,0.2);
+}
+
+.menuButton button svg{
+	margin-top: 8px;
+}
+
+#m_l1{
+	fill:white; 
+}
+#m_l2{
+	fill:white;
+}
+#m_l3{
+	fill:white;
+}
+
+@media only screen and (max-width: 769px) {
+	.menuButton button{
+		margin: 5px;
+		padding: 5px 10px;
+	}
+
+	.menuButton button svg{
+		width: 30px;
+		height: 30px;
+	}
+}
